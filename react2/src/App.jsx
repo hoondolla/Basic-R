@@ -51,7 +51,7 @@ const App = () => {
     );
   };
   //todos 배열을 순회 ->  현재 순회 중인 todo 객체의 id가 주어진 id와 같다면, 해당 todo 객체의 completed 속성을 반전시킴
-  //객체 전개 연산자(...todo)를 사용하여 기존 todo 객체의 모든 속성을 복사한 뒤 completed 속성만 업데이트함
+  //객체 전개 연산자(...todo)를 사용하여 기존 todo 객체의 모든 속성을 복사한 뒤 completed 속성만 업데이트
 
   return (
     <div>
